@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landry web portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fanta.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <a href="/">
+            <h1>Landry I.</h1>
+        </a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+        </ul>
+        <nav>
+            <a href="" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="" target="_blank">
+                <i class="fa-brands fa-square-linkedin"></i> 
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="intro-header">
+                <h1>Hey! I'm Landry...</h1>
+                <p>Software Developer</p>
+            </div>
+            <h5 class="intro-description">
+                I'm a web developer with a passion for creating beautiful and functional websites.
+            </h5>
+            <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i>
+                <a href="mailto:landryingabire605@gmail.com" target="_blank">
+                    Email me
+                </a>
+                <a href="/" target="_blank">
+                    Github
+                </a>
+                <a href="/" target="_blank">
+                    LinkedIn
+                </a>
+            </div>
+
+            <div id="play-game">
+                <button onclick="playGame()">Play games</button>
+            </div>
+            <div class="color-div" style="display: none;">
+                <h4>Pick a color</h4>
+                <p style="display: none;">Great... It's ruined!</p>
+                <input type="color" id="color-picker" onchange="changeColor()" value="#0084ff">
+                <button onclick="resetColor()" style="display: none;">Reset</button>
+            </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Area</th>
+                        <th>Technologies</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Javascript</td>
+                        <td>ReactJs | VueJs | NextJs | NodeJs & ExpressJs</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Data Analysis | Django | Data Visualization</td>
+                    </tr>
+                    <tr>
+                        <td>Web</td>
+                        <td>Tailwind CSS | Bootstrap | Materialize | Firebase | GIT | CI/CD | PostgreSQL | Fanatcss</td>
+                    </tr>
+                    <tr>
+                        <td>Design</td>
+                        <td>Canvas | Figma | Pixlr | Microsoft Paint</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Latest Projects</h2>
+            <div class="cards-grid">
+                <div class="project-card">
+                    <div>
+                        <p>August 12, 2025</p>
+                        <h4>landryI.</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJs</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Tailwindcss</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NodeJs</p>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ab, 
+                            accusantium minus quis natus aspernatur eligendi ullam tempore beatae 
+                            quidem sed! Culpa soluta ipsa autem placeat adipisci sunt, exercitationem illum.
+                        </p>
+                        <div class="project-link">
+                            <a href="/" target="_blank">Live</a>
+                            <a href="/" target="_blank">Github</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img src="./public/fantacss.png" class="big-img" alt="landry I.">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <p>August 12, 2025</p>
+                        <h4>landryI.</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJs</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Tailwindcss</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NodeJs</p>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ab, 
+                            accusantium minus quis natus aspernatur eligendi ullam tempore beatae 
+                            quidem sed! Culpa soluta ipsa autem placeat adipisci sunt, exercitationem illum.
+                        </p>
+                        <div class="project-link">
+                            <a href="/" target="_blank">Live</a>
+                            <a href="/" target="_blank">Github</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img src="./public/fantacss.png" class="big-img" alt="landry I.">
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div>
+                        <p>August 12, 2025</p>
+                        <h4>landryI.</h4>
+                        <div class="tech-list">
+                            <div class="card-button-secondary">
+                                <p>NextJs</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>Tailwindcss</p>
+                            </div>
+                            <div class="card-button-secondary">
+                                <p>NodeJs</p>
+                            </div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ab, 
+                            accusantium minus quis natus aspernatur eligendi ullam tempore beatae 
+                            quidem sed! Culpa soluta ipsa autem placeat adipisci sunt, exercitationem illum.
+                        </p>
+                        <div class="project-link">
+                            <a href="/" target="_blank">Live</a>
+                            <a href="/" target="_blank">Github</a>
+                        </div>
+                    </div>
+                    <div class="img-div">
+                        <img src="./public/fantacss.png" class="big-img" alt="landry I.">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 by <a href="/">Landry I.</a> the repo on <a href="/">Github</a></p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
