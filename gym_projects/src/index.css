@@ -129,6 +129,10 @@ input:disabled {
     opacity: 0.6;
 }
 
+/* input{
+    background: black;
+} */
+
 button.help-icon {
     pointer-events: none;
     opacity: 0;
