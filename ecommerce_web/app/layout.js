@@ -1,12 +1,13 @@
 
 import "./globals.css";
 import "./fanta.css";
+import Header from "./header";
 import Head from "./head";
-import Header from "@/components/header";
+import Footer from "./footer";
 
 
 export const metadata = {
-  title: "Mukaza Store",
+  title: "Mu-Store",
   description: "People's store",
 };
 
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
             {children}
           </main>
           <div className="hr" />
-          <footer></footer>
+          <Footer />
         </div>
       </body>
     </html>
